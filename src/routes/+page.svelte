@@ -2,6 +2,7 @@
 	import rei from '$lib/images/rei.jpg';
 	import instagramIcon from '$lib/images/instagram-icon.svg';
 	import tikTokIcon from '$lib/images/tiktok-icon.svg';
+	import youTubeIcon from '$lib/images/youtube-icon.svg';
 	import letterIcon from '$lib/images/mail-icon.svg';
 
 	let boxClass = 'flex items-center mt-8 border-[#FFD1D1] border-4 p-2 rounded bg-[#FFE3E1]';
@@ -36,6 +37,16 @@
 			>
 				<img src={tikTokIcon} alt="TikTok" class="h-10 w-10" />
 				<span class="font-bold text-3xl mx-auto">TikTok</span>
+			</a>
+
+			<a
+				href="https://www.youtube.com/channel/UCghbLlBfsS8uXeig2oRiwcw"
+				target="_blank"
+				rel="noopener noreferrer"
+				class={boxClass}
+			>
+				<img src={youTubeIcon} alt="YouTube" class="h-10 w-10" />
+				<span class="font-bold text-3xl mx-auto">YouTube</span>
 			</a>
 
 			<a
