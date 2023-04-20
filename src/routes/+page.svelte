@@ -4,8 +4,10 @@
 	import tikTokIcon from '$lib/images/tiktok-icon.svg';
 	import youTubeIcon from '$lib/images/youtube-icon.svg';
 	import letterIcon from '$lib/images/mail-icon.svg';
+	import { inject } from '@vercel/analytics';
 
 	let boxClass = 'flex items-center mt-8 border-[#FFD1D1] border-4 p-2 rounded bg-[#FFE3E1]';
+	inject();
 </script>
 
 <div class="bg-[#FFF5E4]">
